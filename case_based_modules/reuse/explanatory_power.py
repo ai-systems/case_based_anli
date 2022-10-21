@@ -17,11 +17,6 @@ class ExplanatoryPower():
                 if similar_questions[i]["score"] > 0:
                     explanatory_power[exp] += similar_questions[i]["score"]
         filtered_explanatory_power = {}
-        max_score = 0
-        check_max = False
         for key in sorted(explanatory_power, key=explanatory_power.get, reverse=True)[:facts_limit]:
-            if not check_max:
-                max_score = explanatory_power[key]
-                check_max = True
             filtered_explanatory_power[key] = explanatory_power[key]
         return filtered_explanatory_power
