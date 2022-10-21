@@ -8,7 +8,7 @@ Most of the contemporary approaches for multi-hop Natural Language Inference (NL
 
 Welcome! :) 
 
-In this repository, In this repository, you can find the code for the CB-ANLI model presented at COLING 2022.
+In this repository, you can find the code for the CB-ANLI model presented at COLING 2022.
 
 ## Setup:
 
@@ -24,7 +24,7 @@ Install the [faiss-gpu](https://pypi.org/project/faiss-gpu/) package:
 
 In this repository you can find the code for the BM25 and Sentence-BERT version presented in the paper. 
 
-To run the experiments on [WorldTree](https://github.com/umanlp/tg2019task), run the following commands:
+To run the experiments on [WorldTree](https://github.com/umanlp/tg2019task), launch the following commands:
 
 CB-ANLI BM25:
 
