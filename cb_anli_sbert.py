@@ -88,7 +88,7 @@ for t_id, ts in tqdm(ts_dataset.items()):
             .replace(";", " ")
             .replace("-", " ")
         ):
-            temp.append(utils.explanation_bank_lemmatize(word.lower()))
+            temp.append(word.lower())
         if len(temp) > 0:
             lemmatized_fact.append(" ".join(temp))
     corpus.append(lemmatized_fact)
@@ -104,7 +104,7 @@ for q_id, exp in tqdm(eb_dataset_train.items()):
     question_train.append(question)
     q_ids.append(q_id)
 
-#fit the sparse models
+#setup the dense models
 facts_retriever.fit(corpus, question_train, ids, q_ids, "sentence-transformers/bert-large-nli-stsb-mean-tokens")
 
 RS = RelevanceScore(facts_retriever)
