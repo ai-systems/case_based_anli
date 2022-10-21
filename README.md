@@ -40,9 +40,7 @@ We hope you find this repository useful. If you use SCAR in your work, please co
 ```
 @inproceedings{valentino-etal-2022-case,
     title = "Case-Based Abductive Natural Language Inference",
-    author = "Valentino, Marco  and
-      Thayaparan, Mokanarangan  and
-      Freitas, Andr{\'e}",
+    author = "Valentino, Marco  and Thayaparan, Mokanarangan  and Freitas, Andr{\'e}",
     booktitle = "Proceedings of the 29th International Conference on Computational Linguistics",
     month = oct,
     year = "2022",
