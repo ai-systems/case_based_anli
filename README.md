@@ -35,7 +35,7 @@ CB-ANLI Sentence-BERT:
 `python ./cb_anli_sbert.py`
 
 ## Citation
-We hope you find this repository useful. If you use SCAR in your work, please consider citing our paper!
+We hope you find this repository useful. If you use CB-ANLI in your work, please consider citing our paper!
 
 ```
 @inproceedings{valentino-etal-2022-case,
