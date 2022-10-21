@@ -8,7 +8,7 @@ Most of the contemporary approaches for multi-hop Natural Language Inference (NL
 
 Welcome! :) 
 
-In this repository, you can find the code for the CB-ANLI model presented at COLING 2022.
+In this repository, you can find the code for the [CB-ANLI model](https://aclanthology.org/2022.coling-1.134/) presented at COLING 2022.
 
 ## Setup:
 
