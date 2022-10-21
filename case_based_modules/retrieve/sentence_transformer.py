@@ -34,7 +34,6 @@ class SentenceEmbedding:
         self.cases_index = self.build_faiss_index("cases", self.model, self.question_train)
 
     def query(self, query):
-
         top_k_hits = len(self.ids)
         query_embedding = self.model.encode(query[0])
         #FAISS works with inner product (dot product). When we normalize vectors to unit length, inner product is equal to cosine similarity
@@ -76,7 +75,6 @@ class SentenceEmbedding:
 
 
     def build_faiss_index(self, index_type, model, corpus_sentences):
-
         max_corpus_size = 10000
         embedding_size = 1024    #Size of embeddings
         embedding_cache_path = 'embeddings-size-'+str(max_corpus_size)+'-'+index_type+'.pkl'
