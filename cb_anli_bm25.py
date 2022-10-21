@@ -44,8 +44,8 @@ CF = 2 #number of central facts to consider for the final inference
 weights = [0.83, 0.17]  # relevance and explanatory power weigths
 grounding_tables = ["KINDOF","SYNONYMY", "OPPOSITES","INTENSIVE-EXTENSIVE"]
 not_central_tables = grounding_tables
-eb_dataset = eb_dataset_dev # test dataset
-fold_dataset = fold_dev #test fold
+eb_dataset = eb_dataset_test # test dataset
+fold_dataset = fold_test #test fold
 
 facts_retriever = BM25()  # facts retrieval model
 cases_retriever = BM25()  # cases retrieval model
