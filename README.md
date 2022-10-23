@@ -34,7 +34,7 @@ CB-ANLI Sentence-BERT:
 
 `python ./cb_anli_sbert.py`
 
-The scripts in `python ./case_base_modules/*` contain the main classes adopted to model the Case-Based Abductive Inference paradigm. 
+The scripts in `./case_base_modules/*` contain the main classes adopted to model the Case-Based Abductive Inference paradigm. 
 
 ## Citation
 We hope you find this repository useful. If you use CB-ANLI in your work, please consider citing our paper!
