@@ -22,7 +22,7 @@ Install the [faiss-gpu](https://pypi.org/project/faiss-gpu/) package:
 
 ## Abductive Natural Language Inference:
 
-In this repository, you can find the code for answering and explaining science questiothe through the BM25 and Sentence-BERT version presented in the paper. 
+In this repository, you can find the code for answering and explaining science questions through the BM25 and Sentence-BERT version presented in the paper. 
 
 To run the models on [WorldTree](https://github.com/umanlp/tg2019task), launch the following commands:
 
