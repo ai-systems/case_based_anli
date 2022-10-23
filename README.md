@@ -24,7 +24,7 @@ Install the [faiss-gpu](https://pypi.org/project/faiss-gpu/) package:
 
 In this repository you can find the code for the BM25 and Sentence-BERT version presented in the paper. 
 
-To run the experiments on [WorldTree](https://github.com/umanlp/tg2019task), launch the following commands:
+To run the models on [WorldTree](https://github.com/umanlp/tg2019task), launch the following commands:
 
 CB-ANLI BM25:
 
@@ -33,6 +33,8 @@ CB-ANLI BM25:
 CB-ANLI Sentence-BERT:
 
 `python ./cb_anli_sbert.py`
+
+The scripts in `python ./case_base_modules/*` contain the main classes adopted to model the case-based abductive inference paradigm. 
 
 ## Citation
 We hope you find this repository useful. If you use CB-ANLI in your work, please consider citing our paper!
